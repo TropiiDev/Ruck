@@ -18,4 +18,4 @@ async def on_ready():
 async def test(ctx):
     await ctx.send("Test Complete!")
 
-bot.run('OTIwNDQwMzY0OTkxNjU1OTU3.YbkY4w.aoezftJPDeZ4zTZ39EDJrjy_mWE')
+bot.run('your token here')
