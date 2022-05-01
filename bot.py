@@ -1,6 +1,10 @@
 import discord
 from discord.ext import commands
 from commands import dmrick, events, help, bozo, hehe, wave, about
+import os
+from dotenv import load_dotenv
+
+load_dotenv(".env")
 
 cogs = [dmrick, events, help, bozo, hehe, wave, about]
 
@@ -18,4 +22,4 @@ async def on_ready():
 async def test(ctx):
     await ctx.send("Test Complete!")
 
-bot.run('your token here')
+bot.run(os.getenv("TOKEN"))
