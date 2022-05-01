@@ -18,6 +18,9 @@ class help(commands.Cog):
         em.add_field(name="HeHe", value="Hehe one of your friends from the iconic michael jackson")
         em.add_field(name="Wave", value="Sends a bunch of waves to someone")
         em.add_field(name="About", value="About the bot!")
+        em.add_field(name="Frank", value="Tells the person that you mention to 'eat a frank' lol")
+        em.add_field(name="Invite", value="Sends a invite link to the bot invite and the support server")
+        em.add_field(name="----FUTURE COMMANDS----", value="")
         await author.send(embed=em)
 
 def setup(bot):
